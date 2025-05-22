@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matías Ochoa | Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="cabecera">
+        <div class="contenedor">
+            <h1 class="logo">MO</h1>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <span></span>
+            </label>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="contenedor">
+            <div class="hero-contenido">
+                <h2 class="titulo-hero">
+                    <span class="saludo">Hola, soy</span>
+                    <span class="nombre">Matías Ochoa</span>
+                    <span class="profesion">Desarrollador Web</span>
+                </h2>
+                <p class="descripcion">Creando experiencias digitales únicas y funcionales</p>
+                <div class="botones">
+                    <a href="#proyectos" class="btn btn-primario">Ver proyectos</a>
+                    <a href="#contacto" class="btn btn-secundario">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-imagen">
+                <img src="./imag matias.jpg" alt="Matías Ochoa">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <div class="sobre-mi-contenido">
+                <div class="foto">
+                    <img src="/imag matias.jpg" alt="Matías Ochoa">
+                </div>
+                <div class="info">
+                    <p>Soy un desarrollador web apasionado por crear soluciones digitales que combinen funcionalidad y estética. Con experiencia en el desarrollo de aplicaciones web modernas, me especializo en crear interfaces intuitivas y responsivas.</p>
+                    <p>Mi enfoque se centra en escribir código limpio y mantenible, aplicando las mejores prácticas de desarrollo y manteniéndome actualizado con las últimas tendencias tecnológicas.</p>
+                    <div class="datos">
+                        <div class="dato">
+                            <span class="etiqueta">Email:</span>
+                            <span class="valor">matias@ejemplo.com</span>
+                        </div>
+                        <div class="dato">
+                            <span class="etiqueta">Ubicación:</span>
+                            <span class="valor">Buenos Aires, Argentina</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primario">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Mis Proyectos</h2>
+            <div class="grid-proyectos">
+                <!-- Proyecto 1 -->
+                <div class="tarjeta-proyecto">
+                    <div class="imagen-proyecto">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Proyecto 1">
+                    </div>
+                    <div class="contenido-proyecto">
+                        <h3>Tienda Virtual</h3>
+                        <p>Desarrollo de una plataforma e-commerce completa con carrito de compras y pasarela de pagos.</p>
+                        <div class="etiquetas">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="btn-ver">Ver proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="tarjeta-proyecto">
+                    <div class="imagen-proyecto">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Proyecto 2">
+                    </div>
+                    <div class="contenido-proyecto">
+                        <h3>App de Gestión</h3>
+                        <p>Sistema de administración para pequeñas empresas con módulos de inventario y facturación.</p>
+                        <div class="etiquetas">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="btn-ver">Ver proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="tarjeta-proyecto">
+                    <div class="imagen-proyecto">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Proyecto 3">
+                    </div>
+                    <div class="contenido-proyecto">
+                        <h3>Portal Educativo</h3>
+                        <p>Plataforma de cursos online con sistema de progreso y certificaciones para estudiantes.</p>
+                        <div class="etiquetas">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Sass</span>
+                        </div>
+                        <a href="#" class="btn-ver">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Mis Habilidades</h2>
+            <div class="grid-habilidades">
+                <div class="habilidad">
+                    <div class="info-habilidad">
+                        <h3>HTML5 & CSS3</h3>
+                        <span>95%</span>
+                    </div>
+                    <div class="barra">
+                        <div class="progreso" style="width: 95%"></div>
+                    </div>
+                </div>
+                
+                <div class="habilidad">
+                    <div class="info-habilidad">
+                        <h3>JavaScript</h3>
+                        <span>90%</span>
+                    </div>
+                    <div class="barra">
+                        <div class="progreso" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <div class="habilidad">
+                    <div class="info-habilidad">
+                        <h3>React</h3>
+                        <span>85%</span>
+                    </div>
+                    <div class="barra">
+                        <div class="progreso" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <div class="habilidad">
+                    <div class="info-habilidad">
+                        <h3>Node.js</h3>
+                        <span>80%</span>
+                    </div>
+                    <div class="barra">
+                        <div class="progreso" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <div class="habilidad">
+                    <div class="info-habilidad">
+                        <h3>UI/UX Design</h3>
+                        <span>75%</span>
+                    </div>
+                    <div class="barra">
+                        <div class="progreso" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <div class="habilidad">
+                    <div class="info-habilidad">
+                        <h3>MongoDB</h3>
+                        <span>85%</span>
+                    </div>
+                    <div class="barra">
+                        <div class="progreso" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Contáctame</h2>
+            <div class="contacto-contenido">
+                <div class="contacto-info">
+                    <p>¿Tienes un proyecto en mente? ¡Hablemos sobre cómo puedo ayudarte a hacerlo realidad!</p>
+                    <div class="contacto-datos">
+                        <div class="contacto-dato">
+                            <span class="contacto-etiqueta">Email:</span>
+                            <span class="contacto-valor">matias@ejemplo.com</span>
+                        </div>
+                        <div class="contacto-dato">
+                            <span class="contacto-etiqueta">Ubicación:</span>
+                            <span class="contacto-valor">Buenos Aires, Argentina</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="formulario">
+                    <div class="campo-grupo">
+                        <div class="campo">
+                            <input type="text" id="nombre" required>
+                            <label for="nombre">Nombre</label>
+                        </div>
+                        <div class="campo">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <textarea id="mensaje" required></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="contenedor">
+            <p>© 2024 Matías Ochoa. Todos los derechos reservados.</p>
+            <div class="redes">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <a href="#inicio" class="btn-arriba">↑</a>
+    </footer>
+</body>
+</html>
